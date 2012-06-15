@@ -11,16 +11,16 @@ Usage
 
 Options
 -------
-move:  Move the selected element when dragging. Default true.
-debug: Log the event object to the console while dragging. Default
-false.
+
+    move:  Move the selected element when dragging. Default true.
+    debug: Log the event object to the console while dragging. Default false.
  
 Callbacks
 ---------
 Optionally provide one or more callbacks. Callbacks are fired in
 sequence, and take a jQuery event object with some additional
-attributes
-in the `data` property:
+attributes in the `data` property:
+
    draggable:          the selected element
    offsetX:            the x coordinate offset between the mouse cursor and the left 
                        edge of the draggable element
